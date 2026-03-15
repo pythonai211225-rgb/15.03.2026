@@ -2,6 +2,8 @@
 
 Solve the following exercises using **Python code**
 
+<img src="dict2.png" />
+
 ## Exercise 1 – Group words by length
 
 ```
