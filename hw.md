@@ -1,8 +1,8 @@
 # Homework – Lists and Dictionaries
 
-Solve the following exercises using **Python code**
-
 <img src="dict2.png" />
+
+Solve the following exercises using **Python code**
 
 ## Exercise 1 – Group words by length
 
