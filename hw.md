@@ -1,6 +1,6 @@
 # Homework – Lists and Dictionaries
 
-Solve the following exercises using **Python code**.
+Solve the following exercises using **Python code**
 
 ## Exercise 1 – Group words by length
 
@@ -14,9 +14,9 @@ Solve the following exercises using **Python code**.
 }
 ```
 
-Write a function that groups words by **number of letters**.
+Write a function that groups words by **number of letters**
 
-The **key** should be the length of the word, and the **value** should be a list of all words with that length.
+The **key** should be the length of the word, and the **value** should be a list of all words with that length
 
 ```python
 def group_words_by_length(words: list) -> dict:
@@ -36,7 +36,7 @@ grades = {"Tom":80, "Anna":95, "John":70, "Sara":85}
 -> 82.5
 ```
 
-Write a function that calculates the **average grade of all students**.
+Write a function that calculates the **average grade of all students**
 
 ```python
 def get_average_grade(grades: dict) -> float:
@@ -60,7 +60,7 @@ def get_average_grade(grades: dict) -> float:
 }
 ```
 
-Write a function that groups numbers based on their **sign**.
+Write a function that groups numbers based on their **sign**
 
 ```python
 def group_numbers(nums: list) -> dict:
