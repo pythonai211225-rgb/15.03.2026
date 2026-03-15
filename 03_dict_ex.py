@@ -35,3 +35,58 @@ def get_count(list1: list) -> dict:
     :return: dict { <number>: <how many times appear> }
     '''
     pass
+
+'''
+4
+{"apple":5, "banana":6, "kiwi":4} -> {5:"apple", 6:"banana", 4:"kiwi"}
+'''
+def reverse_dict(dict1: dict) -> dict:
+    '''
+
+    :param dict1: {<word>: <number> ... }
+    :return: dict { <number>: <word> }
+    '''
+    pass
+
+'''
+5
+[1,2,3,4,5,6]
+-> {"even":3, "odd":3}
+'''
+def count_even_odd(nums: list) -> dict:
+    '''
+    :param nums: list of numbers
+    :return: dict {"even": count_even, "odd": count_odd}
+    '''
+    pass
+
+'''
+6
+cities = {
+    "Tokyo": {"language": "Japanese", "population": 37_400_000, "size": 2194, "country": "Japan"},
+    "Paris": {"language": "French", "population": 2_140_000, "size": 105, "country": "France"},
+    "New York": {"language": "English", "population": 8_419_000, "size": 783, "country": "USA"},
+    "London": {"language": "English", "population": 8_982_000, "size": 1572, "country": "UK"},
+    "Madrid": {"language": "Spanish", "population": 3_223_000, "size": 604, "country": "Spain"},
+    "Rome": {"language": "Italian", "population": 2_873_000, "size": 1285, "country": "Italy"}
+}
+
+-> ["Paris", "Rome", "Madrid", "New York", "London", "Tokyo"]
+(sorted by population from small to big)
+'''
+
+def get_cities_sorted_by_population(cities: dict) -> list:
+    '''
+
+    :param cities: {
+        <city_name>: {
+            "language": <language>,
+            "population": <population>,
+            "size": <city_area_km2>,
+            "country": <country>
+        }
+    }
+
+    :return: list of city names sorted by population (small → big)
+    '''
+    pass
