@@ -90,3 +90,22 @@ def get_cities_sorted_by_population(cities: dict) -> list:
     :return: list of city names sorted by population (small → big)
     '''
     pass
+
+'''
+7
+["apple","banana","avocado","blueberry","apricot"]
+
+-> {
+    "a": ["apple","avocado","apricot"],
+    "b": ["banana","blueberry"]
+}
+'''
+def group_by_letter(words: list) -> dict:
+    '''
+
+    :param words: list of words
+    :return: dictionary where:
+             key = first letter of the word
+             value = list of all words that start with that letter
+    '''
+    pass
