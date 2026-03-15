@@ -93,11 +93,12 @@ def get_cities_sorted_by_population(cities: dict) -> list:
 
 '''
 7
-["apple","banana","avocado","blueberry","apricot"]
+["apple","banana","avocado","blueberry","apricot","corn"]
 
 -> {
     "a": ["apple","avocado","apricot"],
-    "b": ["banana","blueberry"]
+    "b": ["banana","blueberry"],
+    "c": ["corn"]
 }
 '''
 def group_by_letter(words: list) -> dict:
